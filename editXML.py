@@ -58,17 +58,17 @@ def removeAssociationEnd(elem):
         for k in i:
           i.remove(k)
 
+
 def modifyIBD_Blocks(elem, remove_list):
   unwanted = {'ea_ntype', '$ea_xref_property'}
-  for name in blockName:
-    if name == elem.attrib['name']:
-      remove_list = [e for e in remove_list if e not in unwanted]
-      removeTag(elem, remove_list)
-      popAttributes(elem, pop_list)
-      classTag_to_remove.extend(['ea_ntype', '$ea_xref_property'])
-    else:
-      removeTag(elem, remove_list)
-      popAttributes(elem, pop_list)
+
+  if elem.attrib['name'] in blockName:
+    remove_list = [e for e in remove_list if e not in unwanted]
+    removeTag(elem, remove_list)
+    popAttributes(elem, pop_list)
+  else:
+    removeTag(elem, remove_list)
+    popAttributes(elem, pop_list)
 
 def editDiagram():
   for elem in root.iter():
