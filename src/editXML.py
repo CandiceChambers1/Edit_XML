@@ -5,9 +5,9 @@ from lxml import etree
 from lxml.html.clean import Cleaner
 
 # Import XML File
-filename = 'FCS_XML'
-# filename = 'SOS_XML(Final)'
-# filename = 'ASS_XML_v2'
+filename = 'data/FCS_XML'
+# filename = 'data/SOS_XML(Final)'
+# filename = 'data/ASS_XML_v2'
 
 tree = etree.parse('/content/' + filename + '.xml')
 root = tree.getroot()
