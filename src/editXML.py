@@ -40,6 +40,8 @@ def removeTag(elem, remove_list):
       for g in j:
         popAttributes(g,pop_list)
 
+        print("Hello World")
+
 def modifyTag(elem):
   for j in elem:
     for g in j:
