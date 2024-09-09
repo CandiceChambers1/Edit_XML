@@ -112,6 +112,7 @@ def editDiagram():
 
 def editPackage():
     for elem in root.iter():
+
         if elem.tag == '{omg.org/UML1.3}Package':
             for j in elem:
                 if j.tag == '{omg.org/UML1.3}ModelElement.taggedValue':
