@@ -8,9 +8,9 @@ from lxml.html.clean import Cleaner
 # filename = 'data/FCS_XML'
 # filename = 'data/SOS_XML(Final)'
 # filename = 'data/ASS_XML_v2'
-filename = r"C:\Users\candice\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024.xml"
-# tree = etree.parse('/content/' + filename + '.xml')
-tree = etree.parse(filename)
+filename = r"C:\Users\candi\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024"
+# filename = r"C:\Users\candice\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024.xml"
+tree = etree.parse(filename + '.xml')
 root = tree.getroot()
 
 classTag_to_remove = ['isSpecification', 'ea_ntype', 'isActive', 'version', 'date_created', 'date_modified', 'gentype',
@@ -18,9 +18,15 @@ classTag_to_remove = ['isSpecification', 'ea_ntype', 'isActive', 'version', 'dat
                       'ea_eleType', 'style', '$ea_xref_property']
 associationTag_to_remove = ['style', 'linemode', 'linecolor', 'linewidth', 'seqno', 'headStyle', 'lineStyle',
                             'ea_localid', 'ea_sourceID', 'ea_targetID', 'virtualInheritance']
+
 collaborationTag_to_remove = ['isAbstract', 'isSpecification', 'ea_ntype', 'version', 'isActive', 'date_created',
                               'date_modified', 'gentype', 'tagged', 'phase', 'author', 'complexity', 'status', 'tpos',
                               'ea_localid', 'ea_eleType', 'style', '$ea_xref_property']
+
+collabActivityTag_to_remove = ['isAbstract', 'isSpecification', 'ea_ntype', 'version', 'isActive', 'date_created',
+                               'date_modified', 'gentype', 'tagged', 'phase', 'author', 'complexity', 'status', 'tpos',
+                               'ea_localid', 'ea_eleType', 'style']
+
 diagramTag_to_remove = ['version', 'author', 'created_date', 'modified_date', 'type', 'ea_localid', 'matrixitems',
                         'swimlanes', 'EAStyle']
 internalDiagramTag_to_remove = ['version', 'author', 'created_date', 'modified_date', 'swimlanes', 'matrixitems',
@@ -74,6 +80,7 @@ def modifyTag(elem):
                 g.set('value', 'MDGDgm=SysML1.4::InternalBlock;SF=1;')
             ## MDGDgm=SysML1.4::Activity;SF=1;
 
+
 def removeAssociationEnd(elem):
     for j in elem:
         if j.tag == '{omg.org/UML1.3}Association.connection':
@@ -107,7 +114,12 @@ def editDiagram():
         elif elem.tag == '{omg.org/UML1.3}Diagram' and elem.attrib['diagramType'] == 'ActivityDiagram':
             removeTag(elem, activityDiagramTag_to_remove)
             # modifyTag(elem)
-            print(elem)
+
+
+def process_tag(elem, g, i, value, remove_list):
+    if elem.attrib['value'] == value:
+        removeTag(g, remove_list)
+        popAttributes(i, pop_list)
 
 
 def editPackage():
@@ -144,18 +156,20 @@ def editPackage():
                                             for u in j:
                                                 ## remove stuff from action state
                                                 removeTag(u, actionTag_to_remove)
-                                                popAttributes(u,pop_list)
+                                                popAttributes(u, pop_list)
                                                 # print(u)
-                                #   for j in g:
-                                #     print(j)
+
                         elif i.tag == '{omg.org/UML1.3}Collaboration':
                             # Namespace.ownedElement
                             for k in i:
                                 # ClassifierRole
                                 for g in k:
-                                    removeTag(g, collaborationTag_to_remove)
-                                    popAttributes(i, pop_list)
-
+                                    # print(g.attrib['name'])
+                                    for u in g.iter('{omg.org/UML1.3}TaggedValue'):
+                                        # print("U           " + u.attrib['tag'])
+                                        process_tag(u, g, i, 'ActivityParameter', collabActivityTag_to_remove)
+                                        process_tag(u, g, i, 'ActionPin', collaborationTag_to_remove)
+                                        process_tag(u, g, i, 'Part', collaborationTag_to_remove)
 
 editDiagram()
 editPackage()
