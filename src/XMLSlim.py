@@ -5,11 +5,10 @@ from lxml import etree
 from lxml.html.clean import Cleaner
 
 # Import XML File
-# filename = 'data/FCS_XML'
-# filename = 'data/SOS_XML(Final)'
-# filename = 'data/ASS_XML_v2'
-filename = r"C:\Users\candi\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024"
-# filename = r"C:\Users\candice\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024.xml"
+filename = r'C:\Users\candice\PycharmProjects\Edit_XML\data\FCS_XML'
+# filename = r'C:\Users\candice\PycharmProjects\Edit_XML\data\ASS_XML_v2'
+# filename = r"C:\Users\candi\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024"
+# filename = r"C:\Users\candice\PycharmProjects\Edit_XML\data\coffeemaker_manual_2024"
 tree = etree.parse(filename + '.xml')
 root = tree.getroot()
 
@@ -146,7 +145,7 @@ def editPackage():
                                 # print(k)
                                 if k.tag == '{omg.org/UML1.3}StateMachine.transitions':
                                     for g in k:
-                                        ## remove stuff from tanstitions
+                                        # Remove stuff from transitions
                                         removeTag(g, transitionTag_to_remove)
                                         popAttributes(g, pop_list)
                                         # print(g)
@@ -154,7 +153,7 @@ def editPackage():
                                     for g in k:
                                         for j in g:
                                             for u in j:
-                                                ## remove stuff from action state
+                                                # Remove stuff from action state
                                                 removeTag(u, actionTag_to_remove)
                                                 popAttributes(u, pop_list)
                                                 # print(u)

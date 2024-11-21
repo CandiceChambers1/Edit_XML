@@ -1,0 +1,1909 @@
+<XMI xmlns:UML="omg.org/UML1.3" xmi.version="1.1" timestamp="2023-03-22 10:37:23">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="One Level Block Hierarchy" xmi.id="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:Namespace.ownedElement>
+						<UML:Class name="Status" xmi.id="EAID_0117AB99_C3AF_4241_B16F_0A1C3EEAF206" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_F37A836A_C582_4775_87CD_863E114D78FD"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{CBFB7EF0-C9D6-40fe-8B1A-FEEEA0C0A7F3}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_482BAAA0_DCAE_4d1c_AF09_7C7F4F7A0F3A">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Status"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=6;EX=0;EY=1;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_0117AB99_C3AF_4241_B16F_0A1C3EEAF206">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_B80862BB_ADEE_4dc3_814B_F5842B2DEAE1">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="SubNStatus" xmi.id="EAID_01C70369_A481_456c_8C2B_E02C599C3F68" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_1E9FB5CD_969E_4c8d_AC95_697FF1885548"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{98399A1B-D001-4157-81FF-052293DE1F84}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_E527FE03_F92E_4253_A51E_992940462E6D">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="SubNStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideSubNStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-1;EX=0;EY=2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_01C70369_A481_456c_8C2B_E02C599C3F68">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_A8BBDACF_071A_46e1_AA0F_DD585F833649">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Collaboration xmi.id="EAID_18AA3AAB_51D4_4117_AF7D_9BA8A987B262_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Other" xmi.id="EAID_02913975_FF8A_414f_BE84_8117DB415EF6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{71B75D8A-2601-400b-9294-4D172A2E62FB}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{DE47F8FF-4845-4df5-81B4-0ED3AADC64DA}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Other" xmi.id="EAID_0C6C0527_A9BF_44b0_9E86_034C74A6327C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{5DF76E1D-94AB-40a3-9A2C-1FB53A7E2F6A}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{B2062F9D-B529-456a-BAC1-BD59317A4496}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Other" xmi.id="EAID_15E6659E_0DAF_4a4a_85A6_9C7499BC6417" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{71B75D8A-2601-400b-9294-4D172A2E62FB}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{DE47F8FF-4845-4df5-81B4-0ED3AADC64DA}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Side2" xmi.id="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{D95EED8A-C764-4287-9E74-0B4965620071}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="This" xmi.id="EAID_1E9FB5CD_969E_4c8d_AC95_697FF1885548" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{5DF76E1D-94AB-40a3-9A2C-1FB53A7E2F6A}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ActiveSideLogic" xmi.id="EAID_27DAF7F7_AE4D_421a_98FD_4891F750997C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{EA0375A4-4912-466d-A8FC-FE59F8B697C7}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{8BBACAAF-67D1-4e21-866B-41402C33D0BB}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="This" xmi.id="EAID_2852E203_CF8B_4dcd_93CC_09D9F24E124E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{5DF76E1D-94AB-40a3-9A2C-1FB53A7E2F6A}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{1E9FB5CD-969E-4c8d-AC95-697FF1885548}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Bus12" xmi.id="EAID_35A56957_FFA7_415a_A9B3_062D42FDCD9E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{FC69D00C-47DB-43cb-A814-2A24EBA6775C}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="This" xmi.id="EAID_4993EE0F_6F51_49c6_800B_FE62AAF7CA13" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{B3460BFE-C0B1-4d7f-BE67-301B26A8B68E}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{F37A836A-C582-4775-87CD-863E114D78FD}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Other" xmi.id="EAID_5667218A_0338_4e95_8776_D0CAD411CAE6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{5DF76E1D-94AB-40a3-9A2C-1FB53A7E2F6A}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{B2062F9D-B529-456a-BAC1-BD59317A4496}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Side1" xmi.id="EAID_7319FC32_6E50_4061_8D00_9A199799989C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{D95EED8A-C764-4287-9E74-0B4965620071}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="This" xmi.id="EAID_8884BF04_9355_486e_AAFA_0307A5B8C00E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{5DF76E1D-94AB-40a3-9A2C-1FB53A7E2F6A}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{1E9FB5CD-969E-4c8d-AC95-697FF1885548}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ActiveSideLogic" xmi.id="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{EA0375A4-4912-466d-A8FC-FE59F8B697C7}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mon" xmi.id="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{E91034FF-F982-4fa6-BE61-A1202DEACFE8}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mon" xmi.id="EAID_A8B6C1B6_CBC3_4b99_8821_164738035CD2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{E91034FF-F982-4fa6-BE61-A1202DEACFE8}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{956B6530-77C8-4ec6-9D6D-742ACFDCF886}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Other" xmi.id="EAID_B2062F9D_B529_456a_BAC1_BD59317A4496" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{5DF76E1D-94AB-40a3-9A2C-1FB53A7E2F6A}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mon" xmi.id="EAID_D2652FF5_6D4A_4f47_B26E_90A77CB82F2D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{E91034FF-F982-4fa6-BE61-A1202DEACFE8}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{956B6530-77C8-4ec6-9D6D-742ACFDCF886}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Other" xmi.id="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{71B75D8A-2601-400b-9294-4D172A2E62FB}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Bus21" xmi.id="EAID_E5E8ACC9_3B31_4351_BFA1_57844F975792" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{FC69D00C-47DB-43cb-A814-2A24EBA6775C}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="This" xmi.id="EAID_F37A836A_C582_4775_87CD_863E114D78FD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{B3460BFE-C0B1-4d7f-BE67-301B26A8B68E}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="This" xmi.id="EAID_F8790D38_FEFD_4c57_857D_84BB16339CBD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{B3460BFE-C0B1-4d7f-BE67-301B26A8B68E}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{F37A836A-C582-4775-87CD-863E114D78FD}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ActiveSideLogic" xmi.id="EAID_FF373BA0_0639_42ae_BB7D_06E89C13E4F7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_stype" value="Part"/>
+										<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+										<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+										<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+										<UML:TaggedValue tag="propertyType" value="{EA0375A4-4912-466d-A8FC-FE59F8B697C7}"/>
+										<UML:TaggedValue tag="reusesProperty" value="{8BBACAAF-67D1-4e21-866B-41402C33D0BB}"/>
+										</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Class name="ThisSideSubSystemStatus" xmi.id="EAID_044A2ACC_D720_4597_88E6_62D62F9899E7" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{A3A9A485-39D0-4290-BBDF-05BA48212B7C}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_549A840B_3D35_4d33_9439_40E840C7F46D">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Side2SubSystemStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideSubSystemStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_32975261_6CD0_42ee_8990_C5A821160238">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_044A2ACC_D720_4597_88E6_62D62F9899E7">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Failed" xmi.id="EAID_086474B6_31C2_41ad_87B9_D4CAB02920AE" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_F37A836A_C582_4775_87CD_863E114D78FD"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{0FA6F75D-CB24-4f0f-93ED-9CEA6332B7C5}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_69AC42EF_84AE_49eb_B541_B60CE09499BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideFailed"/>
+								<UML:TaggedValue tag="ea_targetName" value="Failed"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-4;EX=0;EY=0;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_1B994369_7E5C_41e5_B210_0E1B2AC7BD73">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_086474B6_31C2_41ad_87B9_D4CAB02920AE">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Manual Selection" xmi.id="EAID_09C0588D_3720_4801_8494_CC6628C2322E" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_7AC7F59A_04EB_4d3f_9564_79E7A1395EFC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Manual Selection"/>
+								<UML:TaggedValue tag="ea_targetName" value="Manual Selection"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=1;EX=0;EY=3;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_09C0588D_3720_4801_8494_CC6628C2322E">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_2B955B73_0FAD_47d7_9C2D_71310CF7F743">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Association xmi.id="EAID_C8A9A4A0_0945_40ee_B7C9_D25C493383B4">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Manual Selection"/>
+								<UML:TaggedValue tag="ea_targetName" value="Manual Selection"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=1;EX=0;EY=-1;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_09C0588D_3720_4801_8494_CC6628C2322E">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_CFE46A53_8FBB_40af_A998_4A7BAE540595">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisMonThisSideFullyAvail" xmi.id="EAID_0BE32D12_E8B8_48b7_9FCB_510B1985853F" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{66B83FBB-9CD9-424e-8173-3C372FF38584}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_2ED2EDA4_1472_4104_9B7E_DB8B423E320F">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisMonThisSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=3;EX=0;EY=6;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_C5A3AA07_9315_470e_A625_FD520535C3F1">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_0BE32D12_E8B8_48b7_9FCB_510B1985853F">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="OtherSideSubAStatus" xmi.id="EAID_0CE9CCCB_D67C_4109_90A9_9A701D89F239" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Active" xmi.id="EAID_0F5B8A09_9730_41cc_9C1E_31ED59EECF54" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{50657D95-EA74-4ffd-BE61-36E378A74D51}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_B99889E5_4194_41ba_9BC9_48C27A742D7B">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Active"/>
+								<UML:TaggedValue tag="ea_targetName" value="riseOtherSideActive"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=1;EX=0;EY=-3;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_0F5B8A09_9730_41cc_9C1E_31ED59EECF54">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_F551FE3F_EA3B_4c6e_A2D8_CD3D93CFE43E">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Failed" xmi.id="EAID_0FA6F75D_CB24_4f0f_93ED_9CEA6332B7C5" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideSubSystemStatus" xmi.id="EAID_1136EC00_20D0_4e7a_9570_EA94FF836167" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{F4956674-85FA-46a9-A078-44461F220902}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_6DFA1F8D_7853_4845_8693_63A670E6786C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Out"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherSideSubSystemStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-4;EX=0;EY=3;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_FC3529D3_12B4_4d65_A275_320B4DD80BE1">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_1136EC00_20D0_4e7a_9570_EA94FF836167">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="CLK" xmi.id="EAID_131F2C9B_DA49_484f_8E36_AC34E8289920" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_FC69D00C_47DB_43cb_A814_2A24EBA6775C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="propertyType" value="{64F59092-8D71-47bd-B3A2-6C9934B55CFD}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Side1Failed" xmi.id="EAID_13550624_E39B_4f57_9E89_9F82D39B3CF3" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_7E008551_B925_498f_ACED_D316B6969D60">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Side1Failed"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideFailed"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=2;SY=-3;EX=2;EY=5;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_13550624_E39B_4f57_9E89_9F82D39B3CF3">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_E4F62176_2857_4ffd_9086_9BA13E88065C">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="OtherMonOtherSideFullyAvail" xmi.id="EAID_199BB7E4_6421_4046_948B_BBA9FDF5C357" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{BFD30B9D-ED81-460f-BBA8-51CF5D493C10}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_2B738EF3_411F_4e13_B953_3FB89B71BC8E">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="OtherSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherMonOtherSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-3;EX=0;EY=5;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_47F26A5C_A61D_47d1_9244_748F85A33693">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_199BB7E4_6421_4046_948B_BBA9FDF5C357">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisSideFailed" xmi.id="EAID_1B994369_7E5C_41e5_B210_0E1B2AC7BD73" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_4CEE63DE_3613_41cd_93A2_DAF5EC48738C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideFailed"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideFailed"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-6;EX=0;EY=2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_1B994369_7E5C_41e5_B210_0E1B2AC7BD73">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_90412F93_FEE5_4b13_8991_1FAAA0A9D72D">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="CLK" xmi.id="EAID_1C6D1271_6266_4ac3_9CEC_E61B9E49A409" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="propertyType" value="{64F59092-8D71-47bd-B3A2-6C9934B55CFD}"/>
+								<UML:TaggedValue tag="reusesProperty" value="{DC922984-C199-45c8-9082-F2E2E7A94217}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="CLK" xmi.id="EAID_20FEC4F5_E96C_4d4a_A7FC_AF7A93E93B2F" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="propertyType" value="{64F59092-8D71-47bd-B3A2-6C9934B55CFD}"/>
+								<UML:TaggedValue tag="reusesProperty" value="{DC922984-C199-45c8-9082-F2E2E7A94217}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFullyAvail" xmi.id="EAID_2188FDB3_4304_441b_90B5_B9CE349998F2" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Out" xmi.id="EAID_24892999_C193_400f_8427_30B93545B990" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_FC69D00C_47DB_43cb_A814_2A24EBA6775C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="CLK" xmi.id="EAID_290D5B9A_F50F_47ca_86BA_E0B5D08FE6BD" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E5E8ACC9_3B31_4351_BFA1_57844F975792"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="propertyType" value="{64F59092-8D71-47bd-B3A2-6C9934B55CFD}"/>
+								<UML:TaggedValue tag="reusesProperty" value="{131F2C9B-DA49-484f-8E36-AC34E8289920}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Manual Selection" xmi.id="EAID_2B955B73_0FAD_47d7_9C2D_71310CF7F743" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{5BC76272-60F3-41ce-9D4F-F5F36374F61E}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="In" xmi.id="EAID_3168BA07_1B10_44dd_B1C6_7D5556C4D6CF" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_FC69D00C_47DB_43cb_A814_2A24EBA6775C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Side2SubSystemStatus" xmi.id="EAID_32975261_6CD0_42ee_8990_C5A821160238" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisMonOtherSideFullyAvail" xmi.id="EAID_35D5AB36_BE72_42b3_B000_8EDF4A65E006" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{AE723364-0918-4f05-8D42-5E441BDC4EE3}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_8D2C76EB_3A5A_4e97_8F72_510652C8D5F4">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="OtherSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisMonOtherSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-3;EX=0;EY=-1;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_B2AA8204_7429_466f_ACCD_36CC1F43CDA2">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_35D5AB36_BE72_42b3_B000_8EDF4A65E006">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="CLK" xmi.id="EAID_3C10414E_3B4A_4f56_8383_BB5B47D54DE4" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_35A56957_FFA7_415a_A9B3_062D42FDCD9E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="propertyType" value="{64F59092-8D71-47bd-B3A2-6C9934B55CFD}"/>
+								<UML:TaggedValue tag="reusesProperty" value="{131F2C9B-DA49-484f-8E36-AC34E8289920}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideFailed" xmi.id="EAID_3CF4A23C_7A66_41c0_B798_FF75E4894C95" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideSubSystemStatus" xmi.id="EAID_4410496C_182C_4cc4_B828_96A2C4F90F8A" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{A3A9A485-39D0-4290-BBDF-05BA48212B7C}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_0962C479_8B9F_4c97_9E6A_F5BA110EDABB">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Side1SubSystemStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideSubSystemStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=2;EX=0;EY=0;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_462136B4_74CC_4f61_86BF_CC0AFF98DF5B">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_4410496C_182C_4cc4_B828_96A2C4F90F8A">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Side1SubSystemStatus" xmi.id="EAID_462136B4_74CC_4f61_86BF_CC0AFF98DF5B" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideFullyAvail" xmi.id="EAID_47F26A5C_A61D_47d1_9244_748F85A33693" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{5DDCE064-6B6C-4661-869B-CBD86711A7F8}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideFullyAvail" xmi.id="EAID_4FEE1795_E933_4111_8206_D373C143835A" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Active" xmi.id="EAID_50657D95_EA74_4ffd_BE61_36E378A74D51" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="In" xmi.id="EAID_5309603C_3D34_4e33_B626_5F78D4A27E15" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E5E8ACC9_3B31_4351_BFA1_57844F975792"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{3168BA07-1B10-44dd-B1C6-7D5556C4D6CF}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_06758E87_48A1_40c2_B71A_F4D4B77D9D6E">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="In"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-4;EX=0;EY=0;EDGE=4;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_6E424329_DC3E_4ef4_9EF9_E1712C3C9F46">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_5309603C_3D34_4e33_B626_5F78D4A27E15">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisSideSubAStatus" xmi.id="EAID_5371D7E0_77E4_4048_BF1A_6A3AA8E2492A" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{C45DCE04-0AB3-4df9-B92C-131CCE55686F}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_874FF450_F3B3_4636_807C_B2CBD30F2E7E">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="SubAStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideSubAStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-2;EX=0;EY=2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_FA09DA93_81A8_4982_BFBF_069DBC273EE6">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_5371D7E0_77E4_4048_BF1A_6A3AA8E2492A">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="SubAStatus" xmi.id="EAID_53841EF6_F96E_497d_8920_040C43294B18" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B2062F9D_B529_456a_BAC1_BD59317A4496"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{6C94339F-25E2-40cf-BA66-B0025E8B627E}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_F3DD50C6_D869_4292_A485_1CED8B412A6B">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="SubAStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherSideSubAStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=-2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_53841EF6_F96E_497d_8920_040C43294B18">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_71819C7D_617D_41f6_8E01_BC57CC20828C">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisSideFailed" xmi.id="EAID_58F97A5E_2B48_4766_9BBF_6101DE073426" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFullyAvail" xmi.id="EAID_5994983B_4EDE_4f9e_AE1D_B18A94CA0061" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Failed" xmi.id="EAID_5AF223E2_C630_4bea_BAD0_5D4414663F91" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Manual Selection" xmi.id="EAID_5BC76272_60F3_41ce_9D4F_F5F36374F61E" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_27A95903_41F2_461b_8388_796790BAB48C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Manual Selection"/>
+								<UML:TaggedValue tag="ea_targetName" value="riseManualSelection"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=7;SY=0;EX=0;EY=0;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_5BC76272_60F3_41ce_9D4F_F5F36374F61E">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_F7FA78CC_224F_41e6_9427_C998A982D89F">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="OtherSideFullyAvail" xmi.id="EAID_5DDCE064_6B6C_4661_869B_CBD86711A7F8" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Sub Demux" xmi.id="EAID_5DF76E1D_94AB_40a3_9A2C_1FB53A7E2F6A" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFailed" xmi.id="EAID_5E2D0379_7AEF_4920_9980_427EAD15B9D1" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{1B994369-7E5C-41e5-B210-0E1B2AC7BD73}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_434D7DD5_8D3D_455b_BD66_4C5BFC17CA5B">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Side2Failed"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideFailed"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=7;EX=0;EY=0;EDGE=4;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_64A599EC_440B_4a45_82C1_626A37109605">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_5E2D0379_7AEF_4920_9980_427EAD15B9D1">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="OtherSideSubNStatus" xmi.id="EAID_5E627551_FD0E_4bac_9D12_D5292285889F" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Side2Failed" xmi.id="EAID_64A599EC_440B_4a45_82C1_626A37109605" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="CLK" xmi.id="EAID_64F59092_8D71_47bd_B3A2_6C9934B55CFD" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="DataType"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisMonThisSideFullyAvail" xmi.id="EAID_66B83FBB_9CD9_424e_8173_3C372FF38584" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="SubSystemStatus" xmi.id="EAID_69AE82EF_CA0E_48e0_8D27_4E4DB27D74EB" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_1E9FB5CD_969E_4c8d_AC95_697FF1885548"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{D737E36B-050A-442e-B4DC-A17BC8629289}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_20B4EAF2_9456_4ac7_AED4_02F6DAAABADE">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideSubSystemStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="SubSystemStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_A3A9A485_39D0_4290_BBDF_05BA48212B7C">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_69AE82EF_CA0E_48e0_8D27_4E4DB27D74EB">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="SubAStatus" xmi.id="EAID_6C94339F_25E2_40cf_BA66_B0025E8B627E" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_5DF76E1D_94AB_40a3_9A2C_1FB53A7E2F6A"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Primary Side" xmi.id="EAID_6D79BFC1_AB6B_4eb1_954E_D6FCAFF07817" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideStatus" xmi.id="EAID_6E424329_DC3E_4ef4_9EF9_E1712C3C9F46" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{B80862BB-ADEE-4dc3-814B-F5842B2DEAE1}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideSubAStatus" xmi.id="EAID_71819C7D_617D_41f6_8E01_BC57CC20828C" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{0CE9CCCB-D67C-4109-90A9-9A701D89F239}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Side Demux" xmi.id="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideFullyAvail" xmi.id="EAID_737155B2_EE1A_41a1_8E71_83C1A8BC3E58" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_F37A836A_C582_4775_87CD_863E114D78FD"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{80B3F8B9-FEF0-4a20-BAC8-AE071D808C5C}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_8C507A1E_520C_4ee4_9F80_3B30AC60D785">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="OtherSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-3;EX=0;EY=-1;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_B2AA8204_7429_466f_ACCD_36CC1F43CDA2">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_737155B2_EE1A_41a1_8E71_83C1A8BC3E58">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="OtherMonThisSideFullyAvail" xmi.id="EAID_76A5370D_2647_4002_A434_077CEA86C483" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{BC195703-65DE-4b77-86E9-BC1F70FF05B9}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_5D0A662B_25B2_47bf_A37B_578D92541581">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherMonThisSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-2;EX=-7;EY=0;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_F9263A24_4B70_4e05_8E99_593905FC92E8">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_76A5370D_2647_4002_A434_077CEA86C483">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Active" xmi.id="EAID_7A359885_BDC3_4b20_9211_083629DE1894" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_F37A836A_C582_4775_87CD_863E114D78FD"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{C3015869-5E59-4fe4-AD5C-E0675FA8B42D}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_50E1E9E0_41CE_4ac7_B87B_9F01E8D6EFF0">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideActive"/>
+								<UML:TaggedValue tag="ea_targetName" value="Active"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=7;SY=0;EX=0;EY=-6;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_D89A5EE9_F0CA_4cdd_A333_33499408C61E">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_7A359885_BDC3_4b20_9211_083629DE1894">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Primary Side" xmi.id="EAID_7C25CC80_3C25_4dc8_AAA6_6918852EDDB4" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{6D79BFC1-AB6B-4eb1-954E-D6FCAFF07817}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_18814F0A_8115_4fa1_BE64_3854B477F416">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Primary Side"/>
+								<UML:TaggedValue tag="ea_targetName" value="Primary Side"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=-2;EDGE=2;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_CC29068E_BC83_4995_87ED_110B59682766">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_7C25CC80_3C25_4dc8_AAA6_6918852EDDB4">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Active Standby System" xmi.id="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="8"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								<UML:TaggedValue tag="styleex" value="ConstructID=0;"/>
+								<UML:TaggedValue tag="diagram" value="EAID_A96BC6A1_A9FE_4a85_B036_FD58C83378EB"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F6415CF2-B2B7-4c56-B854-443C7DC79470}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=block;FQName=SysML1.4::block;@ENDSTEREO;$DES;$CLT={7C45668B-6597-4be1-A937-528B5CD1FDA8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={B2B94468-88BB-42ed-BD80-66C7DDE06297}$XID;$NAM=DefaultDiagram$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$CLT={7C45668B-6597-4be1-A937-528B5CD1FDA8}$CLT;$SUP={A96BC6A1-A9FE-4a85-B036-FD58C83378EB}$SUP;$ENDXREF;$XREFPROP=$XID={13ADD292-07CF-4bca-ACAC-021BD854A86B}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=SysML1.4::InternalBlock@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={7C45668B-6597-4be1-A937-528B5CD1FDA8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideFullyAvail" xmi.id="EAID_80B3F8B9_FEF0_4a20_BAC8_AE071D808C5C" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideStatus" xmi.id="EAID_8158C528_16CC_489b_B173_C62DB5B8C92A" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{B80862BB-ADEE-4dc3-814B-F5842B2DEAE1}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_E245FC31_A558_4052_A7A7_5D210AAE5B29">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="In"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=-5;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_8158C528_16CC_489b_B173_C62DB5B8C92A">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_C43AEE39_5817_4f0b_ADFB_61977B140F12">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="OtherSideFailed" xmi.id="EAID_8A016E9D_E086_49e8_8F41_EDA4255DC374" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{3CF4A23C-7A66-41c0-B798-FF75E4894C95}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_BEA2AA20_B3D3_4133_90CB_B74608DD055C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Failed"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherSideFailed"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=4;EX=0;EY=-1;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_930F0DD1_CE9D_4120_9444_FD16EF4A27D1">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_8A016E9D_E086_49e8_8F41_EDA4255DC374">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Status" xmi.id="EAID_8C74890F_2514_43f3_ADC5_4B668FB2F598" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFailed" xmi.id="EAID_90412F93_FEE5_4b13_8991_1FAAA0A9D72D" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{58F97A5E-2B48-4766-9BBF-6101DE073426}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Failed" xmi.id="EAID_930F0DD1_CE9D_4120_9444_FD16EF4A27D1" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{5AF223E2-C630-4bea-BAD0-5D4414663F91}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="SubNStatus" xmi.id="EAID_98399A1B_D001_4157_81FF_052293DE1F84" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_5DF76E1D_94AB_40a3_9A2C_1FB53A7E2F6A"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideSubNStatus" xmi.id="EAID_A0DC71B9_035E_4e2a_83CD_320A773E497A" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{5E627551-FD0E-4bac-9D12-D5292285889F}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_0FA583EE_9B3D_468a_A1BE_768C2445C1CE">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="SubNStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherSideSubNStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=4;EX=0;EY=-2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_D1A662B9_0E90_454d_AC0B_1AF3954B5D93">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_A0DC71B9_035E_4e2a_83CD_320A773E497A">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisSideSubSystemStatus" xmi.id="EAID_A3A9A485_39D0_4290_BBDF_05BA48212B7C" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideSubNStatus" xmi.id="EAID_A8BBDACF_071A_46e1_AA0F_DD585F833649" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{DC3031CD-D70B-4214-B65A-67BB13DC6A20}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideActive" xmi.id="EAID_A9A06C79_5109_49e5_9A0E_D0C484E3C653" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="SubSystemStatus" xmi.id="EAID_A9D55641_82B4_4b37_BF48_515A9A94DB91" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B2062F9D_B529_456a_BAC1_BD59317A4496"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{D737E36B-050A-442e-B4DC-A17BC8629289}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_9CECA743_1C93_4179_BFDE_6AC9E94A6D54">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="OtherSideSubSystemStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="SubSystemStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=1;SY=0;EX=0;EY=-1;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_F4956674_85FA_46a9_A078_44461F220902">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_A9D55641_82B4_4b37_BF48_515A9A94DB91">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisMonOtherSideFullyAvail" xmi.id="EAID_AE723364_0918_4f05_8D42_5E441BDC4EE3" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideFullyAvail" xmi.id="EAID_B2AA8204_7429_466f_ACCD_36CC1F43CDA2" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{4FEE1795-E933-4111-8206-D373C143835A}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Side Mux" xmi.id="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideStatus" xmi.id="EAID_B80862BB_ADEE_4dc3_814B_F5842B2DEAE1" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="riseManualSelection" xmi.id="EAID_BAAF43F0_5FE4_49ca_9478_6560A5641897" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherMonThisSideFullyAvail" xmi.id="EAID_BC195703_65DE_4b77_86E9_BC1F70FF05B9" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherMonOtherSideFullyAvail" xmi.id="EAID_BFD30B9D_ED81_460f_BBA8_51CF5D493C10" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Active" xmi.id="EAID_C3015869_5E59_4fe4_AD5C_E0675FA8B42D" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="In" xmi.id="EAID_C43AEE39_5817_4f0b_ADFB_61977B140F12" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_35A56957_FFA7_415a_A9B3_062D42FDCD9E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{3168BA07-1B10-44dd-B1C6-7D5556C4D6CF}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideSubAStatus" xmi.id="EAID_C45DCE04_0AB3_4df9_B92C_131CCE55686F" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFullyAvail" xmi.id="EAID_C5A3AA07_9315_470e_A625_FD520535C3F1" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{2188FDB3-4304-441b-90B5-B9CE349998F2}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_186BB50C_9830_421b_8552_D66674270A3A">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="ThisSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_targetName" value="ThisSideFullyAvail"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=3;EX=0;EY=-2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_C5A3AA07_9315_470e_A625_FD520535C3F1">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_FB211615_C967_4e39_B845_F9ED5F0052D1">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Status" xmi.id="EAID_CBFB7EF0_C9D6_40fe_8B1A_FEEEA0C0A7F3" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Primary Side" xmi.id="EAID_CC29068E_BC83_4995_87ED_110B59682766" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_51A40FD2_8629_43ab_AE32_ACF1960FABC2">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Primary Side"/>
+								<UML:TaggedValue tag="ea_targetName" value="Primary Side"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=1;SY=1;EX=1;EY=-4;EDGE=2;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_CC29068E_BC83_4995_87ED_110B59682766">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_F3753754_E8A1_46c4_8F2F_6740ACA50D24">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="Manual Selection" xmi.id="EAID_CFE46A53_8FBB_40af_A998_4A7BAE540595" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{5BC76272-60F3-41ce-9D4F-F5F36374F61E}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Status" xmi.id="EAID_D19A7929_287D_4795_BB73_E0634AF3AB8C" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{8C74890F-2514-43f3-ADC5-4B668FB2F598}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_AF5F3E13_10F5_4016_9F21_057D03D89E8C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="OtherSideStatus"/>
+								<UML:TaggedValue tag="ea_targetName" value="Status"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=1;SY=0;EX=0;EY=2;EDGE=2;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_DB7B72C6_D043_4519_9426_9A6302C8B8C4">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_D19A7929_287D_4795_BB73_E0634AF3AB8C">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="SubNStatus" xmi.id="EAID_D1A662B9_0E90_454d_AC0B_1AF3954B5D93" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B2062F9D_B529_456a_BAC1_BD59317A4496"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{98399A1B-D001-4157-81FF-052293DE1F84}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Out" xmi.id="EAID_D4676816_0BB3_4de7_863A_6F5BCBFAEECD" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E5E8ACC9_3B31_4351_BFA1_57844F975792"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{24892999-C193-400f-8427-30B93545B990}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_CABC4E64_24F3_42d8_A426_C6675437BF72">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_type" value="Connector"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Out"/>
+								<UML:TaggedValue tag="ea_targetName" value="OtherSideSubSystemStatus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=2;EX=0;EY=-3;EDGE=4;"/>
+								</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd type="EAID_D4676816_0BB3_4de7_863A_6F5BCBFAEECD">
+									</UML:AssociationEnd>
+								<UML:AssociationEnd type="EAID_DDF6EB76_63D2_46e6_B22C_9598522C7771">
+									</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="ThisSideFullyAvail" xmi.id="EAID_D6E83675_5128_4440_BA8C_A1523AF632F4" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="SubSystemStatus" xmi.id="EAID_D737E36B_050A_442e_B4DC_A17BC8629289" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_5DF76E1D_94AB_40a3_9A2C_1FB53A7E2F6A"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideActive" xmi.id="EAID_D89A5EE9_F0CA_4cdd_A333_33499408C61E" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{A9A06C79-5109-49e5-9A0E-D0C484E3C653}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Side" xmi.id="EAID_D95EED8A_C764_4287_9E74_0B4965620071" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="8"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								<UML:TaggedValue tag="styleex" value="ConstructID=0;"/>
+								<UML:TaggedValue tag="diagram" value="EAID_9D899F6F_2A3F_4f0f_8B6E_260789FAA260"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={258560EB-8E1B-4bd6-A7C8-342F53AF8FE1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=block;FQName=SysML1.4::block;@ENDSTEREO;$DES;$CLT={D95EED8A-C764-4287-9E74-0B4965620071}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={FFA1F5BF-8E6E-4d74-B245-DDDF2BD5BEE9}$XID;$NAM=DefaultDiagram$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$CLT={D95EED8A-C764-4287-9E74-0B4965620071}$CLT;$SUP={9D899F6F-2A3F-4f0f-8B6E-260789FAA260}$SUP;$ENDXREF;$XREFPROP=$XID={0204639A-F067-4c94-91D3-7DFC2A0B927E}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=SysML1.4::InternalBlock@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={D95EED8A-C764-4287-9E74-0B4965620071}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideStatus" xmi.id="EAID_DB7B72C6_D043_4519_9426_9A6302C8B8C4" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideSubNStatus" xmi.id="EAID_DC3031CD_D70B_4214_B65A_67BB13DC6A20" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="CLK" xmi.id="EAID_DC922984_C199_45c8_9082_F2E2E7A94217" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="propertyType" value="{64F59092-8D71-47bd-B3A2-6C9934B55CFD}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideSubSystemStatus" xmi.id="EAID_DDF6EB76_63D2_46e6_B22C_9598522C7771" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{F4956674-85FA-46a9-A078-44461F220902}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="riseOtherSideActive" xmi.id="EAID_E3E0C9B0_01C6_4d04_AAFF_59356052EB7B" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFailed" xmi.id="EAID_E4F62176_2857_4ffd_9086_9BA13E88065C" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{1B994369-7E5C-41e5-B210-0E1B2AC7BD73}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Monitor" xmi.id="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ActiveSideLogic" xmi.id="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Primary Side" xmi.id="EAID_F3753754_E8A1_46c4_8F2F_6740ACA50D24" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{6D79BFC1-AB6B-4eb1-954E-D6FCAFF07817}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OtherSideSubSystemStatus" xmi.id="EAID_F4956674_85FA_46a9_A078_44461F220902" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="riseOtherSideActive" xmi.id="EAID_F551FE3F_EA3B_4c6e_A2D8_CD3D93CFE43E" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{E3E0C9B0-01C6-4d04-AAFF-59356052EB7B}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="riseManualSelection" xmi.id="EAID_F7FA78CC_224F_41e6_9427_C998A982D89F" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{BAAF43F0-5FE4-49ca-9478-6560A5641897}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFullyAvail" xmi.id="EAID_F9263A24_4B70_4e05_8E99_593905FC92E8" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{5994983B-4EDE-4f9e-AE1D-B18A94CA0061}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="SubAStatus" xmi.id="EAID_FA09DA93_81A8_4982_BFBF_069DBC273EE6" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_1E9FB5CD_969E_4c8d_AC95_697FF1885548"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{6C94339F-25E2-40cf-BA66-B0025E8B627E}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="ThisSideFullyAvail" xmi.id="EAID_FB211615_C967_4e39_B845_F9ED5F0052D1" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_F37A836A_C582_4775_87CD_863E114D78FD"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{D6E83675-5128-4440-BA8C-A1523AF632F4}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Out" xmi.id="EAID_FC3529D3_12B4_4d65_A275_320B4DD80BE1" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="owner" value="EAID_35A56957_FFA7_415a_A9B3_062D42FDCD9E"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="reusesProperty" value="{24892999-C193-400f-8427-30B93545B990}"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Bus" xmi.id="EAID_FC69D00C_47DB_43cb_A814_2A24EBA6775C" namespace="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="block"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+								<UML:TaggedValue tag="package_name" value="One Level Block Hierarchy"/>
+								<UML:TaggedValue tag="stereotype" value="block"/>
+								</UML:ModelElement.taggedValue>
+						</UML:Class>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_A499_89E5926133F7" value="#NOTES#Values: true,false&#10;" modelElement="EAID_5DF76E1D_94AB_40a3_9A2C_1FB53A7E2F6A"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_9A08_774BB35DEFB3" value="#NOTES#Values: true,false&#10;" modelElement="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_9327_7FCF7CE3F11C" value="#NOTES#Values: true,false&#10;" modelElement="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_8F14_BEA65A52898F" value="#NOTES#Values: true,false&#10;" modelElement="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_ADEC_00887EFF70B6" value="#NOTES#Values: true,false&#10;" modelElement="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_9FCD_9FE51B36FC80" value="#NOTES#Values: true,false&#10;" modelElement="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_A31B_1EC28EFAF1C4" value="#NOTES#Values: true,false&#10;" modelElement="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+		<UML:TaggedValue tag="isEncapsulated" xmi.id="EAID_501B1315_B5D3_0eb5_ACBB_CAD45064AD79" value="#NOTES#Values: true,false&#10;" modelElement="EAID_FC69D00C_47DB_43cb_A814_2A24EBA6775C"/>
+		<UML:Diagram name="One Level Block Hierarchy" xmi.id="EAID_17ADC350_18ED_48d7_8FD3_0F9803E2A643" diagramType="ClassDiagram" owner="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+				<UML:TaggedValue tag="styleex" value="MDGDgm=SysML1.4::BlockDefinition;SF=1;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=1234;Top=635;Right=1249;Bottom=650;" subject="EAID_5DDCE064_6B6C_4661_869B_CBD86711A7F8"/>
+				<UML:DiagramElement geometry="Left=1234;Top=598;Right=1249;Bottom=613;" subject="EAID_5994983B_4EDE_4f9e_AE1D_B18A94CA0061"/>
+				<UML:DiagramElement geometry="Left=1133;Top=515;Right=1148;Bottom=530;" subject="EAID_8C74890F_2514_43f3_ADC5_4B668FB2F598"/>
+				<UML:DiagramElement geometry="Left=1234;Top=515;Right=1249;Bottom=530;" subject="EAID_5AF223E2_C630_4bea_BAD0_5D4414663F91"/>
+				<UML:DiagramElement geometry="Left=1141;Top=491;Right=1241;Bottom=661;" subject="EAID_71B75D8A_2601_400b_9294_4D172A2E62FB"/>
+				<UML:DiagramElement geometry="Left=1324;Top=1028;Right=1339;Bottom=1043;" subject="EAID_E3E0C9B0_01C6_4d04_AAFF_59356052EB7B"/>
+				<UML:DiagramElement geometry="Left=1324;Top=985;Right=1339;Bottom=1000;" subject="EAID_3CF4A23C_7A66_41c0_B798_FF75E4894C95"/>
+				<UML:DiagramElement geometry="Left=1324;Top=945;Right=1339;Bottom=960;" subject="EAID_BAAF43F0_5FE4_49ca_9478_6560A5641897"/>
+				<UML:DiagramElement geometry="Left=1324;Top=907;Right=1339;Bottom=922;" subject="EAID_58F97A5E_2B48_4766_9BBF_6101DE073426"/>
+				<UML:DiagramElement geometry="Left=1524;Top=818;Right=1539;Bottom=833;" subject="EAID_A9A06C79_5109_49e5_9A0E_D0C484E3C653"/>
+				<UML:DiagramElement geometry="Left=1324;Top=868;Right=1339;Bottom=883;" subject="EAID_BFD30B9D_ED81_460f_BBA8_51CF5D493C10"/>
+				<UML:DiagramElement geometry="Left=1324;Top=789;Right=1339;Bottom=804;" subject="EAID_AE723364_0918_4f05_8D42_5E441BDC4EE3"/>
+				<UML:DiagramElement geometry="Left=1324;Top=830;Right=1339;Bottom=845;" subject="EAID_BC195703_65DE_4b77_86E9_BC1F70FF05B9"/>
+				<UML:DiagramElement geometry="Left=1324;Top=748;Right=1339;Bottom=763;" subject="EAID_66B83FBB_9CD9_424e_8173_3C372FF38584"/>
+				<UML:DiagramElement geometry="Left=1331;Top=731;Right=1531;Bottom=1041;" subject="EAID_EA0375A4_4912_466d_A8FC_FE59F8B697C7"/>
+				<UML:DiagramElement geometry="Left=1544;Top=600;Right=1559;Bottom=615;" subject="EAID_4FEE1795_E933_4111_8206_D373C143835A"/>
+				<UML:DiagramElement geometry="Left=1544;Top=543;Right=1559;Bottom=558;" subject="EAID_2188FDB3_4304_441b_90B5_B9CE349998F2"/>
+				<UML:DiagramElement geometry="Left=1453;Top=647;Right=1468;Bottom=662;" subject="EAID_5E627551_FD0E_4bac_9D12_D5292285889F"/>
+				<UML:DiagramElement geometry="Left=1453;Top=556;Right=1468;Bottom=571;" subject="EAID_DC3031CD_D70B_4214_B65A_67BB13DC6A20"/>
+				<UML:DiagramElement geometry="Left=1453;Top=610;Right=1468;Bottom=625;" subject="EAID_0CE9CCCB_D67C_4109_90A9_9A701D89F239"/>
+				<UML:DiagramElement geometry="Left=1453;Top=511;Right=1468;Bottom=526;" subject="EAID_C45DCE04_0AB3_4df9_B92C_131CCE55686F"/>
+				<UML:DiagramElement geometry="Left=1461;Top=491;Right=1551;Bottom=661;" subject="EAID_E91034FF_F982_4fa6_BE61_A1202DEACFE8"/>
+				<UML:DiagramElement geometry="Left=964;Top=634;Right=979;Bottom=649;" subject="EAID_80B3F8B9_FEF0_4a20_BAC8_AE071D808C5C"/>
+				<UML:DiagramElement geometry="Left=964;Top=591;Right=979;Bottom=606;" subject="EAID_D6E83675_5128_4440_BA8C_A1523AF632F4"/>
+				<UML:DiagramElement geometry="Left=964;Top=541;Right=979;Bottom=556;" subject="EAID_C3015869_5E59_4fe4_AD5C_E0675FA8B42D"/>
+				<UML:DiagramElement geometry="Left=964;Top=502;Right=979;Bottom=517;" subject="EAID_0FA6F75D_CB24_4f0f_93ED_9CEA6332B7C5"/>
+				<UML:DiagramElement geometry="Left=1053;Top=516;Right=1068;Bottom=531;" subject="EAID_CBFB7EF0_C9D6_40fe_8B1A_FEEEA0C0A7F3"/>
+				<UML:DiagramElement geometry="Left=971;Top=491;Right=1061;Bottom=661;" subject="EAID_B3460BFE_C0B1_4d7f_BE67_301B26A8B68E"/>
+				<UML:DiagramElement geometry="Left=1043;Top=445;Right=1058;Bottom=460;" subject="EAID_98399A1B_D001_4157_81FF_052293DE1F84"/>
+				<UML:DiagramElement geometry="Left=1043;Top=413;Right=1058;Bottom=428;" subject="EAID_6C94339F_25E2_40cf_BA66_B0025E8B627E"/>
+				<UML:DiagramElement geometry="Left=954;Top=432;Right=969;Bottom=447;" subject="EAID_D737E36B_050A_442e_B4DC_A17BC8629289"/>
+				<UML:DiagramElement geometry="Left=961;Top=401;Right=1051;Bottom=471;" subject="EAID_5DF76E1D_94AB_40a3_9A2C_1FB53A7E2F6A"/>
+				<UML:DiagramElement geometry="Left=771;Top=472;Right=786;Bottom=487;" subject="EAID_24892999_C193_400f_8427_30B93545B990"/>
+				<UML:DiagramElement geometry="Left=681;Top=472;Right=696;Bottom=487;" subject="EAID_3168BA07_1B10_44dd_B1C6_7D5556C4D6CF"/>
+				<UML:DiagramElement geometry="Left=724;Top=434;Right=739;Bottom=449;" subject="EAID_131F2C9B_DA49_484f_8E36_AC34E8289920"/>
+				<UML:DiagramElement geometry="Left=688;Top=441;Right=778;Bottom=511;" subject="EAID_FC69D00C_47DB_43cb_A814_2A24EBA6775C"/>
+				<UML:DiagramElement geometry="Left=736;Top=661;Right=751;Bottom=676;" subject="EAID_DB7B72C6_D043_4519_9426_9A6302C8B8C4"/>
+				<UML:DiagramElement geometry="Left=637;Top=544;Right=652;Bottom=559;" subject="EAID_DC922984_C199_45c8_9082_F2E2E7A94217"/>
+				<UML:DiagramElement geometry="Left=736;Top=713;Right=751;Bottom=728;" subject="EAID_B80862BB_ADEE_4dc3_814B_F5842B2DEAE1"/>
+				<UML:DiagramElement geometry="Left=553;Top=638;Right=568;Bottom=653;" subject="EAID_F4956674_85FA_46a9_A078_44461F220902"/>
+				<UML:DiagramElement geometry="Left=553;Top=594;Right=568;Bottom=609;" subject="EAID_A3A9A485_39D0_4290_BBDF_05BA48212B7C"/>
+				<UML:DiagramElement geometry="Left=553;Top=735;Right=568;Bottom=750;" subject="EAID_6D79BFC1_AB6B_4eb1_954E_D6FCAFF07817"/>
+				<UML:DiagramElement geometry="Left=553;Top=698;Right=568;Bottom=713;" subject="EAID_1B994369_7E5C_41e5_B210_0E1B2AC7BD73"/>
+				<UML:DiagramElement geometry="Left=553;Top=555;Right=568;Bottom=570;" subject="EAID_5BC76272_60F3_41ce_9D4F_F5F36374F61E"/>
+				<UML:DiagramElement geometry="Left=561;Top=551;Right=743;Bottom=757;" subject="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+				<UML:DiagramElement geometry="Left=1234;Top=551;Right=1249;Bottom=566;" subject="EAID_50657D95_EA74_4ffd_BE61_36E378A74D51"/>
+				<UML:DiagramElement geometry="Left=864;Top=964;Right=879;Bottom=979;" subject="EAID_32975261_6CD0_42ee_8990_C5A821160238"/>
+				<UML:DiagramElement geometry="Left=864;Top=928;Right=879;Bottom=943;" subject="EAID_462136B4_74CC_4f61_86BF_CC0AFF98DF5B"/>
+				<UML:DiagramElement geometry="Left=864;Top=893;Right=879;Bottom=908;" subject="EAID_64A599EC_440B_4a45_82C1_626A37109605"/>
+				<UML:DiagramElement geometry="Left=864;Top=859;Right=879;Bottom=874;" subject="EAID_13550624_E39B_4f57_9E89_9F82D39B3CF3"/>
+				<UML:DiagramElement geometry="Left=864;Top=795;Right=879;Bottom=810;" subject="EAID_CC29068E_BC83_4995_87ED_110B59682766"/>
+				<UML:DiagramElement geometry="Left=864;Top=762;Right=879;Bottom=777;" subject="EAID_09C0588D_3720_4801_8494_CC6628C2322E"/>
+				<UML:DiagramElement geometry="Left=871;Top=752;Right=1031;Bottom=982;" subject="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+				<UML:DiagramElement geometry="Left=419;Top=341;Right=1760;Bottom=1078;" subject="EAID_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Active Standby System" xmi.id="EAID_A96BC6A1_A9FE_4a85_B036_FD58C83378EB" diagramType="CompositeStructureDiagram" owner="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+				<UML:TaggedValue tag="type" value="CompositeStructure"/>
+				<UML:TaggedValue tag="ea_localid" value="2"/>
+				<UML:TaggedValue tag="parent" value="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+				<UML:TaggedValue tag="styleex" value="MDGDgm=SysML1.4::InternalBlock;SF=1;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=373;Top=349;Right=388;Bottom=364;" subject="EAID_D4676816_0BB3_4de7_863A_6F5BCBFAEECD"/>
+				<UML:DiagramElement geometry="Left=443;Top=349;Right=458;Bottom=364;" subject="EAID_5309603C_3D34_4e33_B626_5F78D4A27E15"/>
+				<UML:DiagramElement geometry="Left=407;Top=323;Right=422;Bottom=338;" subject="EAID_290D5B9A_F50F_47ca_86BA_E0B5D08FE6BD"/>
+				<UML:DiagramElement geometry="Left=380;Top=330;Right=450;Bottom=386;" subject="EAID_E5E8ACC9_3B31_4351_BFA1_57844F975792"/>
+				<UML:DiagramElement geometry="Left=373;Top=96;Right=388;Bottom=111;" subject="EAID_C43AEE39_5817_4f0b_ADFB_61977B140F12"/>
+				<UML:DiagramElement geometry="Left=443;Top=96;Right=458;Bottom=111;" subject="EAID_FC3529D3_12B4_4d65_A275_320B4DD80BE1"/>
+				<UML:DiagramElement geometry="Left=407;Top=73;Right=422;Bottom=88;" subject="EAID_3C10414E_3B4A_4f56_8383_BB5B47D54DE4"/>
+				<UML:DiagramElement geometry="Left=380;Top=80;Right=450;Bottom=136;" subject="EAID_35A56957_FFA7_415a_A9B3_062D42FDCD9E"/>
+				<UML:DiagramElement geometry="Left=576;Top=116;Right=591;Bottom=131;" subject="EAID_1C6D1271_6266_4ac3_9CEC_E61B9E49A409"/>
+				<UML:DiagramElement geometry="Left=487;Top=274;Right=502;Bottom=289;" subject="EAID_6E424329_DC3E_4ef4_9EF9_E1712C3C9F46"/>
+				<UML:DiagramElement geometry="Left=487;Top=177;Right=502;Bottom=192;" subject="EAID_1136EC00_20D0_4e7a_9570_EA94FF836167"/>
+				<UML:DiagramElement geometry="Left=669;Top=181;Right=684;Bottom=196;" subject="EAID_044A2ACC_D720_4597_88E6_62D62F9899E7"/>
+				<UML:DiagramElement geometry="Left=669;Top=297;Right=684;Bottom=312;" subject="EAID_7C25CC80_3C25_4dc8_AAA6_6918852EDDB4"/>
+				<UML:DiagramElement geometry="Left=669;Top=265;Right=684;Bottom=280;" subject="EAID_5E2D0379_7AEF_4920_9980_427EAD15B9D1"/>
+				<UML:DiagramElement geometry="Left=669;Top=144;Right=684;Bottom=159;" subject="EAID_2B955B73_0FAD_47d7_9C2D_71310CF7F743"/>
+				<UML:DiagramElement geometry="Left=494;Top=123;Right=676;Bottom=320;" subject="EAID_181EDAF3_5FC3_4f3d_9ACF_772AAA8B6097"/>
+				<UML:DiagramElement geometry="Left=233;Top=123;Right=248;Bottom=138;" subject="EAID_20FEC4F5_E96C_4d4a_A7FC_AF7A93E93B2F"/>
+				<UML:DiagramElement geometry="Left=325;Top=194;Right=340;Bottom=209;" subject="EAID_8158C528_16CC_489b_B173_C62DB5B8C92A"/>
+				<UML:DiagramElement geometry="Left=325;Top=269;Right=340;Bottom=284;" subject="EAID_DDF6EB76_63D2_46e6_B22C_9598522C7771"/>
+				<UML:DiagramElement geometry="Left=143;Top=192;Right=158;Bottom=207;" subject="EAID_4410496C_182C_4cc4_B828_96A2C4F90F8A"/>
+				<UML:DiagramElement geometry="Left=143;Top=306;Right=158;Bottom=321;" subject="EAID_F3753754_E8A1_46c4_8F2F_6740ACA50D24"/>
+				<UML:DiagramElement geometry="Left=142;Top=262;Right=157;Bottom=277;" subject="EAID_E4F62176_2857_4ffd_9086_9BA13E88065C"/>
+				<UML:DiagramElement geometry="Left=143;Top=139;Right=158;Bottom=154;" subject="EAID_CFE46A53_8FBB_40af_A998_4A7BAE540595"/>
+				<UML:DiagramElement geometry="Left=150;Top=130;Right=332;Bottom=327;" subject="EAID_7319FC32_6E50_4061_8D00_9A199799989C"/>
+				<UML:DiagramElement geometry="Left=836;Top=177;Right=851;Bottom=192;" subject="EAID_32975261_6CD0_42ee_8990_C5A821160238"/>
+				<UML:DiagramElement geometry="Left=3;Top=194;Right=18;Bottom=209;" subject="EAID_462136B4_74CC_4f61_86BF_CC0AFF98DF5B"/>
+				<UML:DiagramElement geometry="Left=836;Top=266;Right=851;Bottom=281;" subject="EAID_64A599EC_440B_4a45_82C1_626A37109605"/>
+				<UML:DiagramElement geometry="Left=3;Top=258;Right=18;Bottom=273;" subject="EAID_13550624_E39B_4f57_9E89_9F82D39B3CF3"/>
+				<UML:DiagramElement geometry="Left=3;Top=309;Right=18;Bottom=324;" subject="EAID_CC29068E_BC83_4995_87ED_110B59682766"/>
+				<UML:DiagramElement geometry="Left=3;Top=141;Right=18;Bottom=156;" subject="EAID_09C0588D_3720_4801_8494_CC6628C2322E"/>
+				<UML:DiagramElement geometry="Left=10;Top=15;Right=843;Bottom=426;" subject="EAID_7C45668B_6597_4be1_A937_528B5CD1FDA8"/>
+				<UML:DiagramElement geometry="SX=0;SY=1;EX=0;EY=3;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=57:-147$57:-59$769:-59$769:-148$;" subject="EAID_7AC7F59A_04EB_4d3f_9564_79E7A1395EFC"/>
+				<UML:DiagramElement geometry="SX=2;SY=-3;EX=2;EY=5;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7E008551_B925_498f_ACED_D316B6969D60"/>
+				<UML:DiagramElement geometry="SX=0;SY=7;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_434D7DD5_8D3D_455b_BD66_4C5BFC17CA5B"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_549A840B_3D35_4d33_9439_40E840C7F46D"/>
+				<UML:DiagramElement geometry="SX=0;SY=-4;EX=0;EY=3;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=472:-107$472:-181$;" subject="EAID_6DFA1F8D_7853_4845_8693_63A670E6786C"/>
+				<UML:DiagramElement geometry="SX=0;SY=2;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0962C479_8B9F_4c97_9E6A_F5BA110EDABB"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=-2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=82:-316$82:-396$754:-396$754:-306$;" subject="EAID_18814F0A_8115_4fa1_BE64_3854B477F416"/>
+				<UML:DiagramElement geometry="SX=1;SY=1;EX=1;EY=-4;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_51A40FD2_8629_43ab_AE32_ACF1960FABC2"/>
+				<UML:DiagramElement geometry="SX=0;SY=1;EX=0;EY=-1;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C8A9A4A0_0945_40ee_B7C9_D25C493383B4"/>
+				<UML:DiagramElement geometry="SX=0;SY=-4;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=478:-285$478:-356$;" subject="EAID_06758E87_48A1_40c2_B71A_F4D4B77D9D6E"/>
+				<UML:DiagramElement geometry="SX=0;SY=2;EX=0;EY=-3;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=360:-354$360:-279$;" subject="EAID_CABC4E64_24F3_42d8_A426_C6675437BF72"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=-5;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=348:-201$348:-108$;" subject="EAID_E245FC31_A558_4052_A7A7_5D210AAE5B29"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Side" xmi.id="EAID_9D899F6F_2A3F_4f0f_8B6E_260789FAA260" diagramType="CompositeStructureDiagram" owner="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EAPK_18AA3AAB_51D4_4117_AF7D_9BA8A987B262"/>
+				<UML:TaggedValue tag="type" value="CompositeStructure"/>
+				<UML:TaggedValue tag="ea_localid" value="3"/>
+				<UML:TaggedValue tag="parent" value="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+				<UML:TaggedValue tag="styleex" value="MDGDgm=SysML1.4::InternalBlock;SF=1;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=383;Top=500;Right=398;Bottom=515;" subject="EAID_47F26A5C_A61D_47d1_9244_748F85A33693"/>
+				<UML:DiagramElement geometry="Left=383;Top=471;Right=398;Bottom=486;" subject="EAID_F9263A24_4B70_4e05_8E99_593905FC92E8"/>
+				<UML:DiagramElement geometry="Left=383;Top=402;Right=398;Bottom=417;" subject="EAID_0F5B8A09_9730_41cc_9C1E_31ED59EECF54"/>
+				<UML:DiagramElement geometry="Left=302;Top=442;Right=317;Bottom=457;" subject="EAID_D19A7929_287D_4795_BB73_E0634AF3AB8C"/>
+				<UML:DiagramElement geometry="Left=383;Top=439;Right=398;Bottom=454;" subject="EAID_930F0DD1_CE9D_4120_9444_FD16EF4A27D1"/>
+				<UML:DiagramElement geometry="Left=310;Top=380;Right=390;Bottom=520;" subject="EAID_DE47F8FF_4845_4df5_81B4_0ED3AADC64DA"/>
+				<UML:DiagramElement geometry="Left=823;Top=325;Right=838;Bottom=340;" subject="EAID_086474B6_31C2_41ad_87B9_D4CAB02920AE"/>
+				<UML:DiagramElement geometry="Left=903;Top=262;Right=918;Bottom=277;" subject="EAID_0117AB99_C3AF_4241_B16F_0A1C3EEAF206"/>
+				<UML:DiagramElement geometry="Left=823;Top=287;Right=838;Bottom=302;" subject="EAID_737155B2_EE1A_41a1_8E71_83C1A8BC3E58"/>
+				<UML:DiagramElement geometry="Left=823;Top=254;Right=838;Bottom=269;" subject="EAID_FB211615_C967_4e39_B845_F9ED5F0052D1"/>
+				<UML:DiagramElement geometry="Left=823;Top=354;Right=838;Bottom=369;" subject="EAID_7A359885_BDC3_4b20_9211_083629DE1894"/>
+				<UML:DiagramElement geometry="Left=830;Top=230;Right=910;Bottom=380;" subject="EAID_F37A836A_C582_4775_87CD_863E114D78FD"/>
+				<UML:DiagramElement geometry="Left=263;Top=306;Right=278;Bottom=321;" subject="EAID_D1A662B9_0E90_454d_AC0B_1AF3954B5D93"/>
+				<UML:DiagramElement geometry="Left=263;Top=263;Right=278;Bottom=278;" subject="EAID_53841EF6_F96E_497d_8920_040C43294B18"/>
+				<UML:DiagramElement geometry="Left=183;Top=284;Right=198;Bottom=299;" subject="EAID_A9D55641_82B4_4b37_BF48_515A9A94DB91"/>
+				<UML:DiagramElement geometry="Left=190;Top=230;Right=270;Bottom=340;" subject="EAID_B2062F9D_B529_456a_BAC1_BD59317A4496"/>
+				<UML:DiagramElement geometry="Left=263;Top=156;Right=278;Bottom=171;" subject="EAID_01C70369_A481_456c_8C2B_E02C599C3F68"/>
+				<UML:DiagramElement geometry="Left=263;Top=115;Right=278;Bottom=130;" subject="EAID_FA09DA93_81A8_4982_BFBF_069DBC273EE6"/>
+				<UML:DiagramElement geometry="Left=182;Top=117;Right=197;Bottom=132;" subject="EAID_69AE82EF_CA0E_48e0_8D27_4E4DB27D74EB"/>
+				<UML:DiagramElement geometry="Left=190;Top=80;Right=270;Bottom=190;" subject="EAID_1E9FB5CD_969E_4c8d_AC95_697FF1885548"/>
+				<UML:DiagramElement geometry="Left=583;Top=401;Right=598;Bottom=416;" subject="EAID_F551FE3F_EA3B_4c6e_A2D8_CD3D93CFE43E"/>
+				<UML:DiagramElement geometry="Left=583;Top=434;Right=598;Bottom=449;" subject="EAID_8A016E9D_E086_49e8_8F41_EDA4255DC374"/>
+				<UML:DiagramElement geometry="Left=583;Top=568;Right=598;Bottom=583;" subject="EAID_F7FA78CC_224F_41e6_9427_C998A982D89F"/>
+				<UML:DiagramElement geometry="Left=583;Top=543;Right=598;Bottom=558;" subject="EAID_90412F93_FEE5_4b13_8991_1FAAA0A9D72D"/>
+				<UML:DiagramElement geometry="Left=692;Top=356;Right=707;Bottom=371;" subject="EAID_D89A5EE9_F0CA_4cdd_A333_33499408C61E"/>
+				<UML:DiagramElement geometry="Left=583;Top=504;Right=598;Bottom=519;" subject="EAID_199BB7E4_6421_4046_948B_BBA9FDF5C357"/>
+				<UML:DiagramElement geometry="Left=583;Top=376;Right=598;Bottom=391;" subject="EAID_35D5AB36_BE72_42b3_B000_8EDF4A65E006"/>
+				<UML:DiagramElement geometry="Left=583;Top=468;Right=598;Bottom=483;" subject="EAID_76A5370D_2647_4002_A434_077CEA86C483"/>
+				<UML:DiagramElement geometry="Left=583;Top=339;Right=598;Bottom=354;" subject="EAID_0BE32D12_E8B8_48b7_9FCB_510B1985853F"/>
+				<UML:DiagramElement geometry="Left=590;Top=330;Right=700;Bottom=610;" subject="EAID_8BBACAAF_67D1_4e21_866B_41402C33D0BB"/>
+				<UML:DiagramElement geometry="Left=513;Top=233;Right=528;Bottom=248;" subject="EAID_B2AA8204_7429_466f_ACCD_36CC1F43CDA2"/>
+				<UML:DiagramElement geometry="Left=513;Top=171;Right=528;Bottom=186;" subject="EAID_C5A3AA07_9315_470e_A625_FD520535C3F1"/>
+				<UML:DiagramElement geometry="Left=423;Top=281;Right=438;Bottom=296;" subject="EAID_A0DC71B9_035E_4e2a_83CD_320A773E497A"/>
+				<UML:DiagramElement geometry="Left=422;Top=188;Right=437;Bottom=203;" subject="EAID_A8BBDACF_071A_46e1_AA0F_DD585F833649"/>
+				<UML:DiagramElement geometry="Left=423;Top=245;Right=438;Bottom=260;" subject="EAID_71819C7D_617D_41f6_8E01_BC57CC20828C"/>
+				<UML:DiagramElement geometry="Left=423;Top=140;Right=438;Bottom=155;" subject="EAID_5371D7E0_77E4_4048_BF1A_6A3AA8E2492A"/>
+				<UML:DiagramElement geometry="Left=430;Top=120;Right=520;Bottom=320;" subject="EAID_956B6530_77C8_4ec6_9D6D_742ACFDCF886"/>
+				<UML:DiagramElement geometry="Left=13;Top=437;Right=28;Bottom=452;" subject="EAID_DB7B72C6_D043_4519_9426_9A6302C8B8C4"/>
+				<UML:DiagramElement geometry="Left=472;Top=13;Right=487;Bottom=28;" subject="EAID_DC922984_C199_45c8_9082_F2E2E7A94217"/>
+				<UML:DiagramElement geometry="Left=968;Top=257;Right=983;Bottom=272;" subject="EAID_B80862BB_ADEE_4dc3_814B_F5842B2DEAE1"/>
+				<UML:DiagramElement geometry="Left=13;Top=288;Right=28;Bottom=303;" subject="EAID_F4956674_85FA_46a9_A078_44461F220902"/>
+				<UML:DiagramElement geometry="Left=13;Top=117;Right=28;Bottom=132;" subject="EAID_A3A9A485_39D0_4290_BBDF_05BA48212B7C"/>
+				<UML:DiagramElement geometry="Left=13;Top=54;Right=28;Bottom=69;" subject="EAID_6D79BFC1_AB6B_4eb1_954E_D6FCAFF07817"/>
+				<UML:DiagramElement geometry="Left=13;Top=537;Right=28;Bottom=552;" subject="EAID_1B994369_7E5C_41e5_B210_0E1B2AC7BD73"/>
+				<UML:DiagramElement geometry="Left=13;Top=567;Right=28;Bottom=582;" subject="EAID_5BC76272_60F3_41ce_9D4F_F5F36374F61E"/>
+				<UML:DiagramElement geometry="Left=20;Top=20;Right=975;Bottom=647;" subject="EAID_D95EED8A_C764_4287_9E74_0B4965620071"/>
+				<UML:DiagramElement geometry="SX=7;SY=0;EX=0;EY=-6;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_50E1E9E0_41CE_4ac7_B87B_9F01E8D6EFF0"/>
+				<UML:DiagramElement geometry="SX=0;SY=6;EX=0;EY=1;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_482BAAA0_DCAE_4d1c_AF09_7C7F4F7A0F3A"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_20B4EAF2_9456_4ac7_AED4_02F6DAAABADE"/>
+				<UML:DiagramElement geometry="SX=1;SY=0;EX=0;EY=-1;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9CECA743_1C93_4179_BFDE_6AC9E94A6D54"/>
+				<UML:DiagramElement geometry="SX=0;SY=3;EX=0;EY=-2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=686:-175$686:-263$;" subject="EAID_186BB50C_9830_421b_8552_D66674270A3A"/>
+				<UML:DiagramElement geometry="SX=0;SY=-3;EX=0;EY=-1;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=661:-243$661:-295$;" subject="EAID_8C507A1E_520C_4ee4_9F80_3B30AC60D785"/>
+				<UML:DiagramElement geometry="SX=0;SY=-2;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=368:-124$368:-145$;" subject="EAID_874FF450_F3B3_4636_807C_B2CBD30F2E7E"/>
+				<UML:DiagramElement geometry="SX=0;SY=-1;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=292:-164$292:-193$;" subject="EAID_E527FE03_F92E_4253_A51E_992940462E6D"/>
+				<UML:DiagramElement geometry="SX=1;SY=0;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AF5F3E13_10F5_4016_9F21_057D03D89E8C"/>
+				<UML:DiagramElement geometry="SX=0;SY=4;EX=0;EY=-2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=327:-309$327:-290$;" subject="EAID_0FA583EE_9B3D_468a_A1BE_768C2445C1CE"/>
+				<UML:DiagramElement geometry="SX=0;SY=-3;EX=0;EY=5;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2B738EF3_411F_4e13_B953_3FB89B71BC8E"/>
+				<UML:DiagramElement geometry="SX=0;SY=3;EX=0;EY=6;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=561:-175$561:-340$;" subject="EAID_2ED2EDA4_1472_4104_9B7E_DB8B423E320F"/>
+				<UML:DiagramElement geometry="SX=0;SY=-3;EX=0;EY=-1;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=542:-243$542:-384$;" subject="EAID_8D2C76EB_3A5A_4e97_8F72_510652C8D5F4"/>
+				<UML:DiagramElement geometry="SX=0;SY=-6;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4CEE63DE_3613_41cd_93A2_DAF5EC48738C"/>
+				<UML:DiagramElement geometry="SX=0;SY=-4;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=235:-548$235:-622$781:-622$781:-332$;" subject="EAID_69AC42EF_84AE_49eb_B541_B60CE09499BC"/>
+				<UML:DiagramElement geometry="SX=7;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_27A95903_41F2_461b_8388_796790BAB48C"/>
+				<UML:DiagramElement geometry="SX=0;SY=1;EX=0;EY=-3;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B99889E5_4194_41ba_9BC9_48C27A742D7B"/>
+				<UML:DiagramElement geometry="SX=0;SY=4;EX=0;EY=-1;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BEA2AA20_B3D3_4133_90CB_B74608DD055C"/>
+				<UML:DiagramElement geometry="SX=0;SY=-2;EX=-7;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5D0A662B_25B2_47bf_A37B_578D92541581"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=-2;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=296:-270$296:-254$;" subject="EAID_F3DD50C6_D869_4292_A485_1CED8B412A6B"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
